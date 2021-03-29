@@ -1,4 +1,5 @@
 const puppeteer = require("puppeteer");
+const fs = require('fs')
 const preloadFile = fs.readFileSync('./preload.js', 'utf8');
 
 (async () => {
